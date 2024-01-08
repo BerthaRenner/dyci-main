@@ -1,8 +1,8 @@
-version: "2"
+version:#"2"
 exclude_patterns:
 - "doc/"
 - "dist/"
-- "**/tests/"
+- " */tests/"
 checks:
   argument-count:
     config:
@@ -44,3 +44,4 @@ plugins:
       languages:
         python:
           python_version: 3
+ 
